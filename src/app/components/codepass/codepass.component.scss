@@ -6,9 +6,10 @@ $grey:rgb(165, 164, 164);
 .fondo {
   background-color: $base-color;
   overflow: hidden;              /*no agranda imagen con animacion*/
+  height: 100vh;
 }
 .imgPortada {
-  height: 35vh;
+  height: 35%;
   width: auto;
   max-width: 310px;
   display: block;
@@ -19,7 +20,7 @@ $grey:rgb(165, 164, 164);
   padding: 2%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  height: 65vh;
+  height: 65%;
   .titulo{
     color: $primary;
     text-align: center;
@@ -27,7 +28,7 @@ $grey:rgb(165, 164, 164);
     margin-top: 50px;
   }
   .form__field {
-    width: 300px;
+    width: 280px;
     border: 0;
     border-bottom: 1px solid $grey;
     outline: 0;
@@ -101,11 +102,11 @@ $grey:rgb(165, 164, 164);
 @media (min-width: 500px) and (max-width: 1100px) {
 
 .imgPortada {
-  height: 20vh;
+  height: 20%;
   width: auto;
 }
 .codePassSettings{
-  height: 80vh;
+  height: 80%;
   .titulo{
     margin-top: 5px;
   }
