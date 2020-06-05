@@ -11,7 +11,7 @@ export class Cliente001Component implements OnInit {
   /*url = 'https://radio.cloudserver.cl:7035/stream';*/   /*mi streming*/
   /*url = 'https://radio.acktib.com:8443/radio.ogg';*/   /*otro streming*/
   /*url = 'https://av03.upstream-media.ch/canal3francais-192.mp3';*/   /*radioTest*/
-  url = 'https://radio.cloudserver.cl:7035/stream';   /*streaming actual*/
+  url = 'https://av03.upstream-media.ch/canal3francais-192.mp3';   /*streaming actual*/
 
   constructor() { }
 

@@ -20,6 +20,7 @@ import { ErrorComponent } from './components/error/error.component';
 import { Cliente001Component } from './canales/cliente001/cliente001.component';
 import { Cliente002Component } from './canales/cliente002/cliente002.component';
 import { Cliente003Component } from './canales/cliente003/cliente003.component';
+import { HomebtnComponent } from './components/homebtn/homebtn.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { Cliente003Component } from './canales/cliente003/cliente003.component';
     Cliente001Component,
     Cliente002Component,
     Cliente003Component,
+    HomebtnComponent,
   ],
   imports: [
     BrowserModule,
