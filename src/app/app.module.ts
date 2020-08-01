@@ -7,35 +7,34 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 
 /*Componentes*/
-import { PlayerComponent } from './components/player/player.component';
-import { CarrouselComponent } from './components/carrousel/carrousel.component';
-import { HeaderComponent } from './components/header/header.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
 import { CodepassComponent } from './components/codepass/codepass.component';
+import { environment } from 'src/environments/environment';
+import { HomebtnComponent } from './components/homebtn/homebtn.component';
+import { PlayerComponent } from './components/player/player.component';
+import { ErrorComponent } from './components/error/error.component';
 
 /*Canales*/
-import { HellodemoComponent } from './canales/hellodemo/hellodemo.component';
-import { ErrorComponent } from './components/error/error.component';
+import { DemoComponent } from './canales/demo/demo.component';
+import { ClienteTestingComponent } from './canales/clienteTesting/clienteTesting.component';
 import { Cliente001Component } from './canales/cliente001/cliente001.component';
 import { Cliente002Component } from './canales/cliente002/cliente002.component';
 import { Cliente003Component } from './canales/cliente003/cliente003.component';
-import { HomebtnComponent } from './components/homebtn/homebtn.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PlayerComponent,
-    CarrouselComponent,
-    HeaderComponent,
     CodepassComponent,
+    HomebtnComponent,
+    PlayerComponent,
     ErrorComponent,
-    HellodemoComponent,
+    DemoComponent,
+    ClienteTestingComponent,
     Cliente001Component,
     Cliente002Component,
     Cliente003Component,
-    HomebtnComponent,
   ],
   imports: [
     BrowserModule,
