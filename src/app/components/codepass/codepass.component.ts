@@ -19,11 +19,13 @@ export class CodepassComponent implements OnInit {
       this.router.navigateByUrl(text);
     } else if (text === 'cliente001') {
       this.router.navigateByUrl(text);
-    }  else if (text === 'cliente002') {
+    }  else if (text === 'cliente002'){
       this.router.navigateByUrl(text);
     } else if (text === 'cliente003') {
       this.router.navigateByUrl(text);
     } else if (text === 'clientetesting') {
+      this.router.navigateByUrl(text);
+    } else if (text === 'demostracion') {
       this.router.navigateByUrl(text);
     } else {
       alert('el codigo no existe');

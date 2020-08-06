@@ -16,6 +16,7 @@ import { ErrorComponent } from './components/error/error.component';
 
 /*Canales*/
 import { DemoComponent } from './canales/demo/demo.component';
+import { DemostracionComponent } from "./canales/demostracion/demostracion.component";
 import { ClienteTestingComponent } from './canales/clienteTesting/clienteTesting.component';
 import { Cliente001Component } from './canales/cliente001/cliente001.component';
 import { Cliente002Component } from './canales/cliente002/cliente002.component';
@@ -31,6 +32,7 @@ import { Cliente003Component } from './canales/cliente003/cliente003.component';
     PlayerComponent,
     ErrorComponent,
     DemoComponent,
+    DemostracionComponent,
     ClienteTestingComponent,
     Cliente001Component,
     Cliente002Component,

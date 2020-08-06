@@ -1,0 +1,13 @@
+{
+  "appId": "com.dungunapp.app",
+  "appName": "dungunapp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist/dungunapp",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
