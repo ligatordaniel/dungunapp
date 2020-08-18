@@ -1,6 +1,6 @@
 {
-  "appId": "com.dungunapp.app",
-  "appName": "dungunapp",
+  "appId": "com.dungun.app",
+  "appName": "Dungun",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "dist/dungunapp",

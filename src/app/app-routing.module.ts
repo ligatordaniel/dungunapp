@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { CodepassComponent } from './components/codepass/codepass.component';
 import { ErrorComponent } from './components/error/error.component';
+import { PrivacidadComponent } from './components/privacidad/privacidad.component';
 
 import { DemoComponent } from './canales/demo/demo.component';
 import { DemostracionComponent } from "./canales/demostracion/demostracion.component";
@@ -15,6 +16,7 @@ const routes: Routes = [
 
   {path: '', component: CodepassComponent}, /*no hay ruta lleva a codepassComponent*/
   {path: 'demo', component: DemoComponent},
+  {path: 'privacidad', component: PrivacidadComponent},
   {path: 'demostracion', component: DemostracionComponent},
   {path: 'clientetesting', component: ClienteTestingComponent},
   {path: 'cliente001', component: Cliente001Component},

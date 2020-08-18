@@ -1,4 +1,4 @@
-package com.dungunapp.app;
+package com.dungun.app;
 
 import android.os.Bundle;
 
