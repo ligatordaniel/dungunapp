@@ -22,7 +22,6 @@ const routes: Routes = [
   {path: 'cliente001', component: Cliente001Component},
   {path: 'cliente002', component: Cliente002Component},
   {path: 'cliente003', component: Cliente003Component},
-  {path: 'cliente003', component: Cliente003Component},
   {path: '**', component: ErrorComponent}, /*siempre al final sino no funka*/
 
 ];
