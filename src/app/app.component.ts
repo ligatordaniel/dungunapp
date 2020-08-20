@@ -7,7 +7,7 @@ import { Plugins } from '@capacitor/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'DungunApp';
+  title = 'Dungun';
   showContent = true;
 }
 
