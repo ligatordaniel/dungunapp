@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-clienteTesting',
-  templateUrl: '../../canales/clienteTesting/player.component.html',
-  styleUrls: ['../../canales/clienteTesting/player.component.scss']
+  templateUrl: '../../canales/clienteTesting/clienteTesting.component.html',
+  styleUrls: ['../../canales/clienteTesting/clienteTesting.component.scss']
 })
 export class ClienteTestingComponent implements OnInit {
   showPlayButton = true;  /*para crear el toggle de play y stop*/

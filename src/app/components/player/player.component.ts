@@ -12,9 +12,9 @@ export class PlayerComponent implements OnInit {
   /*url = 'https://radio.acktib.com:8443/radio.ogg';*/   /*streming del tipo*/
   /*url = 'https://av03.upstream-media.ch/canal3francais-192.mp3';*/   /*radioTest*/
   url = 'https://radio.cloudserver.cl/8076/dungun.ogg';   /*streaming actual*/
+
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {  }
 
 }

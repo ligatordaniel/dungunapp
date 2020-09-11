@@ -15,6 +15,28 @@ $grey:rgb(165, 164, 164);
   display: block;
   margin: 0px auto;
 }
+a {
+  color: $primary;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+  margin-right: 15px;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+
+a:hover {
+  color: $base-color;
+  font-size: 15px;
+  display: block;
+  margin-right: 15px;
+  text-align: right;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
 .codePassSettings{
   background-color: $secondary;
   padding: 2%;
@@ -51,6 +73,8 @@ $grey:rgb(165, 164, 164);
       cursor: text;
       top: 20px;
     }
+
+
   }
   .btn{
     border-radius: 25px;
@@ -119,6 +143,9 @@ $grey:rgb(165, 164, 164);
   .imgLogo{
     margin-top: 5px;
   }
+
+
 }
+
 
 }

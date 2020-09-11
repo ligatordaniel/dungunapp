@@ -7,13 +7,7 @@ $azulado: rgb(11, 51, 63);
 $celesteIntenso: rgb(188, 239, 255);
 $circle-color: rgb(233, 233, 233);
 /*************************Var sass**************************/
-.itunes{
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  display: block;
-  justify-content:center;
-}
+
 /*************************fondo background**************************/
 .animacionFondo{
   height: 100vh;
@@ -158,4 +152,46 @@ $circle-color: rgb(233, 233, 233);
     border-color: transparent;
   }
 }
+
+.mensajePulsar{
+  animation-name: mensajePulsar;
+  animation-duration: 5s; //regular 15
+  animation-iteration-count: infinite;
+  opacity: 0;
+  animation-delay: 10s;
+  animation-timing-function: ease-in;
+  background-color: rgb(68, 114, 184);
+  color: rgb(245, 245, 245);
+}
+@keyframes mensajePulsar {
+  0% {
+    opacity: 0.5;
+  }
+  25%{
+      opacity: 1;
+  }
+  50%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+}
+}
+
+.plantillaEvento{
+  background-color: rgb(251, 251, 251);
+  color: rgb(65, 65, 65);
+  filter: drop-shadow(1px 1px 2px rgb(53, 51, 51));
+  border-radius: 5px;    				     /*redondeado*/
+  width: 300px;
+  position:absolute;
+  bottom:20px;
+  margin: 10px;
+  text-align: center;
+}
+
+
 /*************************AnimacionStop**************************/
