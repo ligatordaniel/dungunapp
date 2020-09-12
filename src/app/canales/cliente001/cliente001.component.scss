@@ -79,41 +79,26 @@ $circle-color: rgb(233, 233, 233);
 /***********************animacion mensaje mensajePulsar**************************/
 .mensajePulsar{
   animation-name: mensajePulsar;
-  animation-duration: 4s; //regular 15
+  animation-duration: 2s; //regular 15
   animation-iteration-count: infinite;
-  opacity: 0;
-  animation-delay: 10s;
-  animation-timing-function: ease-out;
-  background-color: rgb(94, 144, 219);
+  opacity: 1;
+  animation-delay: 12s;
+  animation-timing-function: step-end;
+  background-color: rgb(58, 165, 99);
   color: rgb(245, 245, 245);
   position: absolute;
   top: 160px;
   left:25px;
   width: 150px;
+  border-radius: 5px;
 }
-@keyframes mensajePulsar {
-  0% {
-    opacity: 0;
+  @keyframes mensajePulsar {
+    0% {
+      top: 162px;
+    }
+    50% {
+      top: 160px;
   }
-  14% {
-    opacity: .5;
-  }
-  28% {
-    opacity: 1;
-  }
-  42% {
-    opacity: .5;
-  }
-  56% {
-    opacity: 1;
-  }
-  70% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 0;
-  }
-
 }
 /***********************animacion mensaje mensajePulsar**************************/
 
