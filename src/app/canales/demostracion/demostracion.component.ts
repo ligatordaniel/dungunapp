@@ -2,14 +2,14 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-demostracion',
-  templateUrl: '../../components/player/player.component.html',
-  styleUrls: ['../../components/player/player.component.scss']
+  templateUrl: '../../canales/cliente001/cliente001.component.html',
+  styleUrls: ['../../canales/cliente001/cliente001.component.scss']
 })
 export class DemostracionComponent implements OnInit {
   showPlayButton = true;  /*para crear el toggle de play y stop*/
   showStopButton = false; /*para crear el toggle de play y stop*/
   url = '../../assets/media/audioPrueba1.mp3';   /*otro streming*/
-
+  nombreEvento = "Evento: Soy una Demo"
   constructor() { }
 
   ngOnInit(): void {
