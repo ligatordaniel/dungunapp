@@ -15,4 +15,8 @@ export class Cliente001Component implements OnInit {
   ngOnInit(): void {
   }
 
+  refresh(): void {
+    window.location.reload();
+  }
+
 }

@@ -21,6 +21,8 @@ import { ClienteTestingComponent } from './canales/clienteTesting/clienteTesting
 import { Cliente001Component } from './canales/cliente001/cliente001.component';
 import { Cliente002Component } from './canales/cliente002/cliente002.component';
 import { Cliente003Component } from './canales/cliente003/cliente003.component';
+import { PublicidadckComponent } from './components/publicidadck/publicidadck.component';
+import { ReloadBtnComponent } from './components/reload-btn/reload-btn.component';
 
 
 
@@ -37,6 +39,8 @@ import { Cliente003Component } from './canales/cliente003/cliente003.component';
     Cliente001Component,
     Cliente002Component,
     Cliente003Component,
+    PublicidadckComponent,
+    ReloadBtnComponent,
   ],
   imports: [
     BrowserModule,
