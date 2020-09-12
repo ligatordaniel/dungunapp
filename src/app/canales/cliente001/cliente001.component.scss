@@ -155,30 +155,41 @@ $circle-color: rgb(233, 233, 233);
 
 .mensajePulsar{
   animation-name: mensajePulsar;
-  animation-duration: 5s; //regular 15
+  animation-duration: 4s; //regular 15
   animation-iteration-count: infinite;
   opacity: 0;
   animation-delay: 10s;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-out;
   background-color: rgb(94, 144, 219);
   color: rgb(245, 245, 245);
+  position: absolute;
+  top: 160px;
+  left:25px;
+  width: 150px;
 }
 @keyframes mensajePulsar {
   0% {
-    opacity: 0.5;
+    opacity: 0;
   }
-  25%{
-      opacity: 1;
+  14% {
+    opacity: .5;
   }
-  50%{
+  28% {
     opacity: 1;
   }
-  75%{
-    opacity: 0.5;
+  42% {
+    opacity: .5;
+  }
+  56% {
+    opacity: 1;
+  }
+  70% {
+    opacity: .5;
   }
   100% {
     opacity: 0;
-}
+  }
+
 }
 
 .plantillaEvento{
