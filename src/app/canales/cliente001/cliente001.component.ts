@@ -9,7 +9,7 @@ export class Cliente001Component implements OnInit {
   showPlayButton = true;  /*para crear el toggle de play y stop*/
   showStopButton = false; /*para crear el toggle de play y stop*/
   url = 'https://radiostreaming.cloudserverlatam.com/8102/stream';   /*streaming actual*/
-  nombreEvento = "Hola, Soy el nombre del evento"
+  nombreEvento = "Evento Cordillera"
   constructor() { }
 
   ngOnInit(): void {

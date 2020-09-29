@@ -22,11 +22,12 @@ const routes: Routes = [
   {path: 'privacidad', component: PrivacidadComponent},
   {path: 'demostracion', component: DemostracionComponent},
   {path: 'clientetesting', component: ClienteTestingComponent},
-  {path: 'howden01', component: Cliente001Component},
+
+  {path: 'cordillera01', component: Cliente001Component},
   {path: 'cliente002', component: Cliente002Component},
   {path: 'cliente003', component: Cliente003Component},
 
-  {path: '**', component: ErrorComponent}, /*siempre al final sino no funka*/
+  //{path: '**', component: ErrorComponent}, /*siempre al final sino no funka*/
 
 ];
 
