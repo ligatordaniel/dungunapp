@@ -23,14 +23,12 @@ export class CodepassComponent implements OnInit {
       this.router.navigateByUrl(text);
 
 
-    }else if (text === 'howden01') {
+    }else if (text === 'cordillera01') {
       this.router.navigateByUrl(text);
     } else if (text === 'cliente002'){
       this.router.navigateByUrl(text);
     } else if (text === 'cliente003') {
       this.router.navigateByUrl(text);
-    } else if (text === 'iphone') {
-      window.location.href='https://radiostreaming.cloudserverlatam.com/8102/stream';
     }
 
 
